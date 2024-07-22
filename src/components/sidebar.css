@@ -1,0 +1,97 @@
+.sideBar{
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 1rem;
+    min-height: 100vh;
+    min-width: fit-content;
+}
+.upperSide {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 1rem;
+    min-width: fit-content;
+}
+.lowerSide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+.btns img{
+    max-width: 1.25rem;
+}
+.btns {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    gap: 0.8rem;
+}
+.btns:hover {
+    background-color: #DDE3EA;
+}
+.plus {
+    display: flex;
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #E5EAF1;
+    white-space: nowrap;
+    gap: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    align-items: center;
+}
+.plus1 {
+    padding: 0.5rem 0.8rem;
+}
+.plusImg {
+    max-width: 1.5rem;
+
+}
+.menu {
+    padding: 0.5rem;
+    max-width: 2.5rem;
+}
+.recent {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1s;
+}
+.recentText {
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+.tab {
+    display: flex;
+    gap: 0.8rem;
+    white-space: nowrap;
+    width: 95%;
+    margin: 0% 10% 6% 5% ;
+    padding: 0.5rem;
+}
+.tab img{
+    max-width: 1.3rem;
+}
+.scroll {
+    overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+.high {
+    background-color: #DDE3EA;
+    border-radius: 2rem;
+}
+.tab:hover {
+    background-color: #DDE3EA;
+    border-radius: 2rem;
+}
+@media (max-width:600px) {
+    .sideBar{
+        display: none;
+    }
+}
