@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/Gemini-Clone/",
+  base: "/",
+  build: {
+    cssMinify: false // Ensures CSS is not minified during build
+  }
 })
+
